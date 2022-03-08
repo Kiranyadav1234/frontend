@@ -1,0 +1,96 @@
+body{
+    margin:0px;
+    padding:0px;
+ 
+}
+#heading{
+    display:flex;
+     flex-direction: column; 
+   
+    align-items: center;
+    
+    background-color:black
+
+}
+div h1,p{
+    color:white
+
+}
+#nav-bar{
+    background-color: rgb(184, 174, 174);
+}
+#nav-bar>ul{
+    display:flex;
+    margin: 0px;
+     list-style-type: none;  /*to remove dot */
+   
+}
+#nav-bar>ul>a{
+    margin:20px;
+    text-decoration: none;
+}
+#nav-bar>ul>a>li{
+    color:white;
+    
+}
+#about-me{
+    width:50%;
+    background-color: rgb(201, 135, 148);
+    
+}
+#my-blog{
+    width:50%;
+    background-color:rgb(229, 168, 145)
+}
+main{
+    display:flex;
+    height: 100%;
+}
+#my-pic{
+    width: 75%;
+    height:41%;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+#focus{
+    width: 50%;
+
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+#live-life{
+    width: 50%;
+   
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+footer{
+    background-color: rgb(184, 174, 174);
+    height: 100%;
+}
+footer p{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+    font-weight: bold;
+}
+section h1{
+    text-align: center;
+}
+#about-me p{
+    font-size: larger;
+    font-weight: 500;
+    margin-top: 40px
+}
+@media only screen and (max-width: 620px) {
+    /* For mobile phones: */
+    header,main,footer {
+      width: 100%;
+    }
+  }
